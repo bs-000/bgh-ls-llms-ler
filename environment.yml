@@ -1,0 +1,37 @@
+name: my_project_env
+channels:
+  - nvidia
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python>=3.9
+  - pip
+  - cuda
+  - cuda-toolkit==11.8.0
+  - datasets
+  - pandas
+  - conda-forge::pytorch==2.1.2
+  - peft
+  - scikit-learn
+  - trl
+  - llama-cpp-python==0.2.24
+  - transformers
+  - bert_score
+  - textstat
+  - spacy
+  - numpy
+  - pandas
+  - pypdf2
+  - thinc
+  - accelerate
+  - sentencepiece
+  - protobuf
+  - setuptools==69.5.1
+  - flash-attn
+  - anaconda::packaging
+  - ninja
+  - plotly
+  - anaconda::seaborn
+  - conda-forge::datefinder
+  - statsmodels
